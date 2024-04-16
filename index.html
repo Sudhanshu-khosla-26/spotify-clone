@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link rel="icon" href="images/favicon.jpeg">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="contianer flex bg-black">
+        <div class="left inst-h">
+            <div class="home bg-grey rounded">
+                <ul>
+                    <li class="li-1"><img class="invert" src="images/home.svg" alt="home">Home</li>
+                    <li class="cross invert"><img src="images/cross.svg" alt=""></li>
+                    <li class="li-2"><img class="invert" src="images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="images/playlist.svg" alt="yourlibrary">
+                        <h4> 
+                            Your Library
+                        </h4>
+                </div>
+
+                <div class="songList">
+                    <ul></ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="right bg-lightgrey rounded">
+            <div class="header">
+                <div class="header-fading rounded"></div>
+                <div class="hamburger">
+                    <img class="resp-burg-icon" src="images/burger.svg" alt="">
+                </div>
+                <div class="nav invert">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+                </div>
+                <div class="buttons flex">
+                    <button class="Premiumbtn inst-h">Explore Premium</button>
+                    <button class="installbtn flex inst-h"><img class="installogo invert" src="images/installapp.svg" alt="">
+                        <p class="flex">
+                            Install App
+                        </p>
+                    </button>
+                    <div class="bell  invert"><img src="images/bell.svg" alt=""></div> 
+                    <div class="signup"><img src="images/signup.jpeg" alt=""></div>
+                </div>
+                
+            </div>
+                <div class="playlistbtns">
+                    <button class="allbtn">All</button>
+                    <button class="musicbtn">Music</button>
+                    <button class="podcastsbtn">Podcasts</button>
+                </div>
+            
+            
+            <div class="spotifyplaylist">
+                <h2 class="playlist-head">Made For You</h2>
+                <div class="cardcontainer">
+                </div>
+            </div>
+        </div>
+
+        <div class="playbar invert rounded">
+            <div class="seekbar">
+                <div class="circle">
+
+                </div>
+            </div>
+            <div class="playbar-top flex">
+
+                <div class="songinfo">
+                    
+                </div>
+                <div class="songbuttons">
+                    <img id="previous" src="images/previous.svg" alt="">
+                    <img id="play" src="images/play.svg" alt="">
+                    <img id="next" src="images/next.svg" alt="">
+                </div>
+                <div class="timevol flex">
+                    <div class="songtime"></div>
+                    <div class="volume flex">
+                        <img src="images/volume.svg" alt="">
+                        <div class="range ">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    <script src="js/index.js"></script>
+</body>
+</html>

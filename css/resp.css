@@ -1,0 +1,184 @@
+@media (max-width:1365px) {
+    
+}
+
+@media (max-width:360px) {
+    .cardcontainer{
+        height: 48vh;
+    }
+    .playcard{
+        top: 213px;
+        right: 59px ;
+    }
+    .songtime{
+        margin: 0 10px 0 0 ;
+    }
+    .card img{
+        width: 244px;
+    }
+    .playcard {
+        right: 33px;
+        top: 211px;
+    }
+}
+
+
+
+@media (max-width:450px) {
+    .container{
+        width: 89%;
+    }
+    .left{
+        position: absolute;
+        z-index: 2;
+        background-color: black;
+        width: 97%;
+        left: -1%;
+    }
+    .songList ul li{
+        width: 88%;
+    } 
+    .home{
+        width: 95%;
+    }
+    .cross{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 3%;
+        right: 6%;
+    }
+    .cross img{
+        display: block;
+    }
+    .heading{
+        width: 91%;
+    }
+    .right{
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .header-fading{
+        width: 92%;
+        height: 94.7vh;
+    }
+    .nav{
+        width: 100%;
+        display: none;
+    }
+    .buttons{
+        margin-bottom: 24px;
+        align-items: center;
+        width: 100%;
+        justify-content: end;
+    }
+    .signup{
+            margin-bottom: 0px;
+    }
+    .bell{
+        height: 32px;
+    }
+    .hamburger{
+        z-index: 2;
+        display: block;
+        padding: 2%;
+        position: absolute;
+        top: 15%;
+        left: 4%;
+    }
+    .hamburger img{
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        padding: 1px;
+        width: 35px;
+        height: 35px;
+        filter: invert(1);
+        z-index: 1;
+    }
+    .inst-h{
+        display: none;
+    }
+
+    .card img{
+       width:280px;
+       height: 266px;
+    }
+    .spotifyplaylist .card {
+        width: 323px;
+        padding: 0px 0px 0px 0px;
+        height: 355px;
+    }
+    .playlistbtns{
+        width: 92%;
+    }
+    .spotifyplaylist{
+        width: 100%;
+        height: 100%;
+    }
+    .playlist-head{
+        position: absolute;
+        top: 110%;
+    }
+    .cardcontainer{
+        position: absolute;
+        top: 143%;
+        margin-top: 22px;
+        right: 14%;
+        height: 55vh;
+        width: 70vw;
+    }
+
+    .playcard{
+        top: 207px;
+        width: 17px;    
+    }
+
+    .card h2, p{
+        margin-left: 14px;
+        
+    }
+    .playbar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 120px;
+        bottom: 2%;
+        left: 3%;
+        z-index: 3;
+        width: 87.6%;
+    }
+    .seekbar{
+        bottom: 10%;
+        right: 13%;
+        width: 70%;
+        height: 4px;
+    }
+    .playbar-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .songinfo{
+        /* margin-right: -24%; */
+        text-align: center;
+        margin-bottom: 13px;
+        width: 90%;
+        margin-bottom: 13px;
+    }
+    .songbuttons{
+        margin-right: -8px;
+        margin-bottom: 58px;
+    }
+    .timevol{
+        right: 0%;
+        position: absolute;
+        top: 62%;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
